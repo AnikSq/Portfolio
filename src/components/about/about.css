@@ -1,0 +1,133 @@
+.a {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.a-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+}
+
+.a-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.a-desc {
+  width: 80%;
+  font-weight: 500;
+}
+
+.a-card.bg {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.a-card {
+  width: 60%;
+  height: 60vh;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.a-sub {
+  font-weight: 600;
+}
+
+.a-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.a-award-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.a-desc {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.a-desc span {
+  font-weight: 600;
+}
+
+.achievements {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-style: 24px;
+}
+
+.a-award-img {
+  height: 62.1px;
+  margin-bottom: 24px;
+}
+
+.a-award-list {
+  list-style: none;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.a-award-wrapper {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 120px;
+}
+
+.udemy,
+.udacity {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.learning {
+  position: absolute;
+  left: 100px;
+  top: 15px;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 480px) {
+  .a {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .a-left {
+    width: 100%;
+  }
+
+  .a-card {
+    height: 30vh;
+    margin-bottom: 50px;
+    width: 80%;
+  }
+
+  .a-card.bg,
+  .a-award {
+    display: none;
+  }
+
+  .a-right {
+    padding: 20px;
+  }
+}
