@@ -1,6 +1,7 @@
 .c {
   height: 100vh;
   position: relative;
+  z-index: 999;
 }
 
 .c-bg {
