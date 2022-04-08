@@ -21,7 +21,7 @@ export const products = [
   },
   {
     id: 5,
-    link: "http://github.com",
+    link: "https://omnifood-new.netlify.app/",
     img: "https://serving.photos.photobox.com/390539653163b0f560e6fdce980620e309efb1c495fc2fb8b3c92aff270bf00d71aef79f.jpg",
   },
   {
