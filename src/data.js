@@ -6,7 +6,7 @@ export const products = [
   },
   {
     id: 2,
-    link: "http://github.com",
+    link: "https://anik-dev.netlify.app/",
     img: `https://serving.photos.photobox.com/24364544a7e059ba96549a1c2e19bc49cafa19a496cbc411620234ce6dab6fd9d8f77ccd.jpg`,
   },
   {
