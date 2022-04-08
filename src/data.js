@@ -11,12 +11,12 @@ export const products = [
   },
   {
     id: 3,
-    link: "http://github.com",
+    link: "https://anik-dev-natours.herokuapp.com/",
     img: "https://serving.photos.photobox.com/32274669ba04b4439f9b34c4063a96dc7e5407fec43da7eba2a1ea41d302ef0f059e9911.jpg",
   },
   {
     id: 4,
-    link: "http://github.com",
+    link: "https://anik-dev-natours.herokuapp.com/tour/the-city-wanderer",
     img: "https://serving.photos.photobox.com/452392347becfe8f7033ef6a139aab1b79106ae4973f62156fb849b1e3b57c0233eb7009.jpg",
   },
   {
@@ -26,7 +26,7 @@ export const products = [
   },
   {
     id: 6,
-    link: "http://github.com",
+    link: "https://anik-dev-natours.herokuapp.com/tour/the-park-camper",
     img: "https://serving.photos.photobox.com/452392347becfe8f7033ef6a139aab1b79106ae4973f62156fb849b1e3b57c0233eb7009.jpg",
   },
 ];
