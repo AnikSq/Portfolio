@@ -30,10 +30,6 @@ const About = () => {
         </p>
         <div className="a-award">
           <div className="a-award-wrapper">
-            <div className="udacity">
-              <img src={UdaCityLogo} alt="Nanodegree" className="a-award-img" />
-              <p className="learning">Udacity</p>
-            </div>
             <div className="udemy">
               <img
                 src={UdemyLogo}
@@ -43,17 +39,17 @@ const About = () => {
               <p className="learning">Udemy</p>
             </div>
           </div>
-
           <div className="a-award-texts">
             <h2 className="achievements">Achievements: </h2>
             <ul className="a-award-list">
-              <li className="a-award-title">Full Stack Developer Nanodegree</li>
               <li className="a-award-title">
-                AWS Machine Learning Engineer Nanodegree
+                Master Data Structures and Algorithms
               </li>
+              <li className="a-award-title">Master HTML & CSS</li>
               <li className="a-award-title">
                 NodeJS Complete Backend Bootcamp
               </li>
+              <li className="a-award-title">Python RestFul API using FLASK</li>
             </ul>
           </div>
         </div>
